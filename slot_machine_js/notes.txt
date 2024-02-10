@@ -1,0 +1,20 @@
+Project Setup:
+1. Create a folder for the project.
+2. Initialize Node in the project.
+3. Run on terminal: npm init
+4. Add packages to take user inputs.
+5. Run on terminal: npm i prompt-sync
+6. Create a .js file and start coding.
+
+Game Rules:
+1. Deposit some money.
+2. Determine number of lines to bet on.
+3. Collect a bet amount.
+4. Spin the slot machine.
+5. Check if the user won.
+6. Give the user their winnings.
+7. Play again.
+
+const prompt = require("prompt-sync")();: 
+
+This line imports the prompt-sync library and creates a prompt function. The prompt-sync library allows you to get user input in a synchronous manner, meaning the program will wait for user input before proceeding. The () at the end of require("prompt-sync")() is used to immediately invoke the function returned by require("prompt-sync").
